@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css " href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <!-- nav bar start -->
+    <div class = "nav flex align">
+        <div>
+            <h1 class = "nav-title">Dojonary</h1>
+        </div>
+        <div>
+            <input type = "text" placeholder = "Search">
+        </div>
+        <div>
+            <button class = "btn" onclick = "logout(this)">Login</button>
+        </div>
+    </div>
+    <!-- nav bar end -->
+
+    <!-- body body start -->
+    <div class = "main">
+        <div class = "columns flex">
+            <div class = "col-2">
+                <div class = "profile flex align">
+                    <div class = "header">
+                        <h1>ninja</h1>
+                        <p>noun<br>Plural: ninjas</p>
+                        <button class = "btnlikes" onclick = "alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class = "content">
+                        <p>A practictioner skilled in the <br>
+                        <span>Japanese</span> art of <span>ninjutsu</span></p>
+                    </div>
+                </div>
+                <div class = "profile flex align">
+                    <div class = "header">
+                        <h1>ninja</h1>
+                        <p>noun<br>Plural: ninjas</p>
+                        <button class = "btnlikes" onclick = "alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class = "content">
+                        <p>A <span>programmer</span> who breaks<br>
+                        down problems with <span>zen</span>-like<br>
+                        focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-1">
+                <div class = "profile2">
+                    <div class = "header2">
+                        <h2>Dojonary is<br>
+                        defined by <span>YOU</span></h2>
+                        <button class = "btnDEF" onclick = "hide(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- body body end -->
+</body>
+</html>
